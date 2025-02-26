@@ -1,3 +1,13 @@
+# Mon projet DevOps
+
+[![Python Tests](https://github.com/GautierFouteret/PARTIEL_3INFO_DEVOPS_Fouteret_Gautier/actions/workflows/python-tests.yml/badge.svg)](https://github.com/GautierFouteret/PARTIEL_3INFO_DEVOPS_Fouteret_Gautier/actions/workflows/python-tests.yml)
+[![Python Tests](https://github.com/GautierFouteret/PARTIEL_3INFO_DEVOPS_Fouteret_Gautier/actions/workflows/python-tests.yml/badge.svg)](https://github.com/GautierFouteret/PARTIEL_3INFO_DEVOPS_Fouteret_Gautier/actions/workflows/python-tests.yml)
+
+## Description
+
+Ce projet contient un ensemble de fonctions Python avec des tests unitaires et un linter configuré. Le but est d'exécuter les tests et de maintenir un code propre.
+
+
 # Partiel DEVOPS - Exemple avec Python et GitHub Actions
 
 Ce dépôt contient un projet Python simple avec :
