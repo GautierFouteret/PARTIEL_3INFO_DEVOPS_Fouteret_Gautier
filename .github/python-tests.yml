@@ -3,10 +3,10 @@ name: Python Tests
 on:
   push:
     branches:
-      - main
+      - master  # 'master' ici au lieu de 'main'
   pull_request:
     branches:
-      - main
+      - master  # 'master' ici aussi
 
 jobs:
   test:
