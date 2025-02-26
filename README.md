@@ -7,6 +7,13 @@
 
 Ce projet contient un ensemble de fonctions Python avec des tests unitaires et un linter configuré. Le but est d'exécuter les tests et de maintenir un code propre.
 
+Voici le lien vers mon repository contenant les GitHub Actions implémentées pour ce projet : https://github.com/GautierFouteret/PARTIEL_3INFO_DEVOPS_Fouteret_Gautier.
+
+Dans ce repository, j'ai configuré les GitHub Actions pour :
+
+Exécuter les tests unitaires automatiquement avec pytest.
+Vérifier la qualité du code avec un linter (pylint).
+Les badges de succès pour les tests et le linter sont également ajoutés dans le fichier README.md pour suivre l'état de ces actions en temps réel.
 
 # Partiel DEVOPS - Exemple avec Python et GitHub Actions
 
