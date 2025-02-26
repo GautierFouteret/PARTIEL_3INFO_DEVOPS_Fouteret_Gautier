@@ -3,10 +3,10 @@ name: Python Tests
 on:
   push:
     branches:
-      - master  # Utilise 'master' ici au lieu de 'main'
+      - master  # Assurez-vous que 'master' est la branche sur laquelle vous faites le push
   pull_request:
     branches:
-      - master  # Utilise 'master' ici aussi
+      - master
 
 jobs:
   test:
