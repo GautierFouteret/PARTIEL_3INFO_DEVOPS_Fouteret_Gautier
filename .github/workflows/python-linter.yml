@@ -1,0 +1,32 @@
+name: Python Linter
+
+on:
+  push:
+    branches:
+      - master  # Remplace 'master' par ta branche (ex : main)
+  pull_request:
+    branches:
+      - master  # Remplace 'master' par ta branche (ex : main)
+
+jobs:
+  linter:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # Installe les dépendances
+        pip install flake8  # Installe flake8 (ou tout autre linter)
+
+    - name: Run linter
+      run: |
+        flake8 .  # Exécute le linter sur le code
